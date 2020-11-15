@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>datetime</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button (click)="sub_mostrarFecha()">
+    Mostrar Fecha
+  </ion-button><br>
+
+  <ion-label>Fecha</ion-label>
+  <ion-datetime placeholder="Registre la fecha" display-format="D-MM-YYYY" [ngModel]="fechaActual.toISOString()" (ionChange)="cambioFecha($event)"></ion-datetime>
+
+
+<ion-item>
+  <ion-label>
+    Años
+  </ion-label>
+
+  <ion-datetime placeholder="Año">
+
+  </ion-datetime>
+</ion-item>
+
+</ion-content>

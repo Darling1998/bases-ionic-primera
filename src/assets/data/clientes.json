@@ -1,0 +1,26 @@
+[
+    {
+        "cedula":"12345678",
+        "nombre":"Darling",
+        "telefono":"0984044940",
+        "direccion":"salinas"
+    },
+    {
+        "cedula":"456311",
+        "nombre":"Josue",
+        "telefono":"12262",
+        "direccion":"salinas"
+    },
+    {
+        "cedula":"7825",
+        "nombre":"De La Cruz",
+        "telefono":"0989876540",
+        "direccion":"salinas"
+    },  
+    {
+        "cedula":"134698",
+        "nombre":"Rocafuerte",
+        "telefono":"0984044940",
+        "direccion":"salinas"
+    }
+]

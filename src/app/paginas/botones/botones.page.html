@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>botones</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-button  class="top-20" color="secondary" expand="full" size="small" (click)="sub_saludar()">small</ion-button>
+  <ion-button  class="top-30" color="danger" expand="full" size="defaud" (click)="sub_saludar()">defaud</ion-button>
+  <ion-button class="top-30" color="primary" expand="full" size="large" (click)="sub_saludar()">large</ion-button>
+  
+  <ion-row>
+    <ion-col>
+      <ion-button fill ="outline" color="danger" routerLink="/principal">Salir</ion-button> 
+    </ion-col>
+
+  </ion-row>
+
+ 
+</ion-content>

@@ -1,0 +1,74 @@
+[
+    {
+        "icon":"radio-button-off-outline",
+        "nombre":"Botones",
+        "paginas":"/botones",
+        "perfil":1
+    },
+    {
+        "icon":"card-outline",
+        "nombre":"Card",
+        "paginas":"/card"  ,
+        "perfil":1
+    },
+    {
+        "icon":"alarm-outline",
+        "nombre":"DateTime",
+        "paginas":"datetime"  ,
+        "perfil":1
+    },
+    {
+        "icon":"list-outline",
+        "nombre":"Listas",
+        "paginas":"listas"  ,
+        "perfil":2
+    },
+    {
+        "icon":"list-outline",
+        "nombre":"array",
+        "paginas":"array"  ,
+        "perfil":1
+    },
+    {
+        "icon":"list-outline",
+        "nombre":"input",
+        "paginas":"input"  ,
+        "perfil":1
+    },
+    {
+        "icon":"list-outline",
+        "nombre":"Modal",
+        "paginas":"empleado"  ,
+        "perfil":1
+    },{
+        "icon":"list-outline",
+        "nombre":"estudiante",
+        "paginas":"search"  ,
+        "perfil":1
+
+    },{
+        "icon":"list-outline",
+        "nombre":"check",
+        "paginas":"checks"  ,
+        "perfil":1
+    },
+    {
+        "icon":"list-outline",
+        "nombre":"select",
+        "paginas":"select"  ,
+        "perfil":1
+    }
+    ,
+    {
+        "icon":"list-outline",
+        "nombre":"Navegacion",
+        "paginas":"navegacion"  ,
+        "perfil":1
+    },
+    {
+        "icon":"list-outline",
+        "nombre":"Catalogo",
+        "paginas":"catalogo"  ,
+        "perfil":1
+    }
+]

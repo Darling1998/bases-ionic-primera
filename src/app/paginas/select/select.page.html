@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>select</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Provincia:</ion-label>
+    <ion-select interface="popover" [(ngModel)]="selectId" (ionChange)="onChange($event)">
+     <ion-select-option *ngFor="let item of dataProvincia" [value]=item.idProvincia>
+       {{item.nombre}}
+     </ion-select-option>
+    </ion-select>
+  </ion-item>
+
+</ion-content>

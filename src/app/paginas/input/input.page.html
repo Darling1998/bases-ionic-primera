@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>input</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!--   <ion-label>Nombre:{{nombre}}</ion-label>
+  <ion-item>
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input type="texto" [(ngModel)]="nombre"></ion-input>
+  </ion-item>
+<ion-button (click)="mostrarInformacion()">Enviar</ion-button> -->
+</ion-content>
+
+<!-- formulario -->
+
+<form #formulario="ngForm" (ngSubmit)="sub_formulario()">
+<ion-list>
+
+  <ion-item>
+    <ion-label position="floating">Cedula:</ion-label>
+    <ion-input type="text" name="cedula"
+    [(ngModel)]="persona.cedula"
+    required 
+    pattern="[0-9]{1,10}"
+    >
+    </ion-input>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label position="floating">Nombres:</ion-label>
+    <ion-input type="text" name="nombres"
+    [(ngModel)]="persona.nombres"
+    required
+    ngModel minlength="3"
+     pattern="[a-zA-Z]{1,15}"
+    >
+    </ion-input>
+  </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Apellidos:</ion-label>
+      <ion-input type="text" name="apellidos"
+      [(ngModel)]="persona.apellidos"
+      required 
+      ngModel minlength="5"
+      pattern="[a-zA-Z]{1,50}"
+      >
+      </ion-input>
+    </ion-item>
+
+
+
+    
+    <ion-item>
+      <ion-label position="floating">Email:</ion-label>
+      <ion-input type="email" name="email"
+      [(ngModel)]="persona.email"
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+      required
+      >
+      </ion-input>
+    </ion-item>
+
+    
+    <ion-item>
+      <ion-label position="floating">Fono:</ion-label>
+      <ion-input type="tel" name="fono"
+      [(ngModel)]="persona.fono"
+      pattern="[0-9]{10}"
+      ngModel minlength="10"
+      ngModel maxlength="13"
+      >
+      </ion-input>
+    </ion-item>
+
+
+</ion-list>
+
+    
+<ion-button type="submit" [disabled]="formulario.invalid">Enviar
+</ion-button>
+</form>

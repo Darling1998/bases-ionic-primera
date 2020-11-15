@@ -1,0 +1,7 @@
+{
+  "name": "appMovil2020",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

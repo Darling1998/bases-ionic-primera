@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>navegacion</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input placeholder="Nombre" [(ngModel)]="valorNombre"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Apellido" [(ngModel)]="valorApellido"></ion-input>
+  </ion-item>
+  <ion-button [routerLink]="['/pagina1',valorNombre,valorApellido]">Pagina</ion-button>
+</ion-content>

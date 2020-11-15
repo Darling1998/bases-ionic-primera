@@ -1,0 +1,76 @@
+[
+    {
+        "expanded": true,
+        "categoria": "COCINAS",
+        "productos": [
+            {
+                "id": 1,
+                "marca": "SAMECOLINE",
+                "nombre": "Cocina a gas Amalia | Gris",
+                "precio": "160.12",
+                "foto":"/assets/img/cocina.jpg"
+            },
+            {
+                "id": 2,
+                "marca": "SAMECOLINE",
+                "nombre": "Cocina Mabe",
+                "precio": "150",
+                "foto":"/assets/img/cocinamabe.jpg"
+            },
+            {
+                "id": 3,
+                "marca": "SAMECOLINE",
+                "nombre": "Cocina a gas Amalia | Gris",
+                "precio": "160.12",
+                "foto":"/assets/img/python.PNG"
+            },
+            {
+                "id": 4,
+                "marca": "SAMECOLINE",
+                "nombre": "Cocina a gas Amalia | Gris",
+                "precio": "160.12",
+                "foto":"/assets/img/python.PNG"
+            }
+        ]
+    },
+    {
+        "expanded": false,
+        "categoria": "MUEBLES",
+        "productos": [
+            {
+                "id": 6,
+                "marca": "SAMECOLINE",
+                "nombre": "SILLON",
+                "precio": "160.12",
+                "foto":"/assets/img/muebles.jpg"
+            },
+            {
+                "id": 7,
+                "marca": "SAMECOLINE",
+                "nombre": "SILLON",
+                "precio": "160.12",
+                "foto":"/assets/img/muebles2.jpg"
+            }
+        ]
+    },
+    {
+        "expanded": false,
+        "categoria": "AUDIO",
+        "productos": [
+            {
+                "id": 11,
+                "marca": "SAMECOLINE",
+                "nombre": "Parlante",
+                "precio": "160.12",
+                "foto":"/assets/img/sonido.jpg"
+            },
+            {
+                "id": 12,
+                "marca": "SAMECOLINE",
+                "nombre": "Parlante",
+                "precio": "160.12",
+                "foto":"/assets/img/python.PNG"
+            }
+        ]
+    }
+]

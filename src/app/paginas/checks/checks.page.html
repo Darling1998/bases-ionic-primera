@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>checks</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-lis>
+    <ion-list-header>
+      <ion-label>Elija el deporte que practica</ion-label>
+    </ion-list-header>
+    <ion-list-content>
+      <ion-item *ngFor="let item of dataCheck" (click)="onClick()">
+       <ion-label> {{item.nombre}}</ion-label>
+      <ion-checkbox [(ngModel)]="item.estado" slot="end"></ion-checkbox>
+      </ion-item>
+    </ion-list-content> 
+  </ion-lis>
+
+<!-- Radio -->
+
+<ion-lis>
+  <ion-list-header>
+    <ion-label>Elija el Estado Civil</ion-label>
+  </ion-list-header>
+  <ion-list-content>
+    <ion-radio-group>
+      <ion-item *ngFor="let item of dataRadio" (click)="onClickRadio(item)">
+        <ion-label> {{item.nombre}}</ion-label>
+        <ion-radio value=[(item.estado)]></ion-radio>
+       </ion-item>
+    </ion-radio-group>
+  </ion-list-content> 
+</ion-lis>
+
+</ion-content>

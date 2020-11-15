@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "appMovil2020",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

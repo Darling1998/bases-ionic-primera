@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>listas</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="principal"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="listar()">
+    Hola
+  </ion-button> 
+
+
+  <ion-list>
+
+     <ion-list-header>
+      <ion-label>CEDULA</ion-label>
+     </ion-list-header>
+     <ion-item *ngFor="let c of clientes | async">
+      <ion-label>{{c.cedula}}</ion-label>
+       
+      </ion-item>
+  </ion-list>
+</ion-content>
